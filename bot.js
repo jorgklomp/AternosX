@@ -62,10 +62,10 @@ function checkCorner(bot, target) {
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'Server IP',    // Minecraft sunucusunun IP adresi
-    port: 40297,          // Tr : Minecraft sunucusunun portu (varsayılan: 25565)   |   En : Port of the Minecraft server (default: 25565)
-    username: 'ZambakExe',      // Tr : Botun kullanıcı adı   |   En : Bot's username
-    version: '1.18'       // Tr : Minecraft sunucu sürümü (En fazla 1.20 diğer versiyonlar "Via Version ile çalışır")  |   En : Minecraft server version (Up to 1.20 other versions work with "Via Version")
+    host: 'maikenjorg.aternos.me',    // Minecraft sunucusunun IP adresi
+    port: 64391,          // Tr : Minecraft sunucusunun portu (varsayılan: 25565)   |   En : Port of the Minecraft server (default: 25565)
+    username: 'AfkMyGuy',      // Tr : Botun kullanıcı adı   |   En : Bot's username
+    version: '1.21.5'       // Tr : Minecraft sunucu sürümü (En fazla 1.20 diğer versiyonlar "Via Version ile çalışır")  |   En : Minecraft server version (Up to 1.20 other versions work with "Via Version")
   });
 
   
